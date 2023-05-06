@@ -1,0 +1,29 @@
+Project Idea / Name: Exercise Page
+
+Stack: Java
+
+Description: App that allows a user, whether logged in or not, to view categories of different exercises. 
+The page will show different muscle groups that are links to a list of different exercises associated with the musle 
+group. There will also be a page for calorie calculation where a user can enter info like sex, height, weight 
+and age and get a set of daily caloric intake to either gain, maintain or lose weight! 
+
+Feature list:
+* User not logged in 
+    - Can view the home page, categories and exercises.
+    - Can use the calorie calculator.
+
+* User logged in
+    - Can do everything a user not logged in can do.
+    - Can add exercises to the database.
+    - Can add favorite exercises.
+    - Can access info from his account like added exercises and favorited exercises.
+    - Can edit and remove exercises only created by that user.
+
+* Admin 
+    - Can do everything a logged in user can do.
+    - Can create categories for users to add exercises to.
+    - Cannot edit but can remove exercises created by any user.
+
+* Calorie Calculator 
+    - A form for user to enter the following info (Height, weight in lbs, sex, age).
+    - Returns daily caloric standards to gain, maintain and lose weight.
