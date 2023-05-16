@@ -1,0 +1,67 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.body {
+	background-color: black;
+	
+}
+
+.indexNav {
+	/* background-color: rgb(164,164,164); */
+	height: 70px;
+	/* border-bottom: 3px solid black; */
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	background-color: white;
+	border: 3px solid gray;
+}
+
+.indexMainCont {
+	background-color: white;
+	margin: 20px;
+	padding: 10px;
+	height: 1000px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+	display: flex;
+	flex-direction: column;
+}
+
+.exercisePosts {
+	display: flex;
+	flex-direction: column;
+}
+
+.exerciseSinglePost {
+	border: 2px solid black;
+	border-radius: 7px 7px 7px 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	background-image: linear-gradient(to bottom right, blue, gray);
+	color: white;
+}
+
+.exerciseTitle {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.exerciseAuth {
+	font-style: italic;
+}
+
+.equipment {
+	font-size: 20px;
+}
+
+.difficulty {
+	font-size: 20px;
+}
+
+
+
+
