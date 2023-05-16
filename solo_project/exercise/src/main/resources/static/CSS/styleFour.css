@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.indexNav {
+	/* background-color: rgb(164,164,164); */
+	background-color: white;
+	height: 70px;
+	/* border-bottom: 3px solid black; */
+	border: 3px solid gray;
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.rightNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 35%;
+}
+
+.indexMainCont {
+	background-color: white;
+	margin: 20px;
+	padding: 10px;
+	height: 1000px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+}
+
+.exerciseForm {
+	border: 2px solid red;
+}
+
+.labelTitle {
+	font-size: 30px;
+}
